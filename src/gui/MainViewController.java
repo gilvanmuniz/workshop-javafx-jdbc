@@ -17,7 +17,11 @@ import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
 
 public class MainViewController implements Initializable {
-
+	
+	/*Sempre lembra que para pegar o id no SceneBuilder
+	 * precisa em 1º lugar associar o controlador no SceneBuilder
+	 */
+	
 	@FXML
 	private MenuItem menuItemSeller;
 
